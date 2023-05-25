@@ -12,4 +12,3 @@ RUN chmod +x /entrypoint.sh && \
     rm -rf /var/cache/apk/*
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["cluster-info"]
